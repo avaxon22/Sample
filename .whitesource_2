@@ -12,13 +12,14 @@
     "useMendCheckNames": true
   },
   "issueSettings": {
-    "minSeverityLevel": "LOW",
+    "minSeverityLevel": "HIGH",
     "issueType": "DEPENDENCY"
   },
   "remediateSettings": {
     "enableRenovate": "true",
     "workflowRules": {
-      "enabled": true
+      "enabled": true,
+      "minVulnerabilitySeverity": "HIGH"
     }
   }
 }
